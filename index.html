@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>スマホをやめれば魚が育つ — 手描きの生き物たち</title>
+<meta name="description" content="『スマホをやめれば魚が育つ』に登場する、絵の具や色鉛筆で描いた手描きの生き物たち。">
+<style>
+  :root {
+    --bg: #f6f2ea;
+    --paper: #fffdf8;
+    --ink: #2b2a27;
+    --sub: #7a756b;
+    --line: #e6dfd2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 20px 32px;
+    text-align: center;
+  }
+  .app-name {
+    font-size: 13px;
+    letter-spacing: .12em;
+    color: var(--sub);
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: clamp(24px, 5vw, 34px);
+    letter-spacing: .04em;
+    margin: 0 0 20px;
+  }
+  .lead { margin: 0; font-size: 15px; }
+  .lead-en { margin: 12px 0 0; font-size: 13px; color: var(--sub); line-height: 1.7; }
+  main {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 12px 72px;
+  }
+  /* スマホ：3列×6行 ／ PC：6列×3行 */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  @media (min-width: 900px) {
+    .grid { grid-template-columns: repeat(6, 1fr); gap: 16px; }
+  }
+  figure {
+    margin: 0;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 12px 4px 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  figure img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+  }
+  figcaption {
+    margin-top: 6px;
+    font-size: 10px;
+    letter-spacing: -.02em;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  figcaption small {
+    display: block;
+    font-size: 9px;
+    font-weight: 400;
+    color: var(--sub);
+  }
+  @media (min-width: 900px) {
+    figure { padding: 14px 10px 10px; }
+    figcaption { font-size: 13px; letter-spacing: 0; margin-top: 8px; }
+    figcaption small { font-size: 11px; }
+  }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--sub);
+    padding: 0 20px 48px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="app-name">スマホをやめれば魚が育つ / Focus &amp; Fish</p>
+  <h1>手描きの生き物たち</h1>
+  <p class="lead">
+    アプリに登場する生き物は、すべて絵の具や色鉛筆で描いた手描きイラストをもとに制作しています。最初は7種類ほどだった仲間たちも、10年かけて一匹ずつ描き足し、今では30種類以上になりました。
+  </p>
+  <p class="lead-en">
+    Every creature in the app begins as a hand-painted illustration made with watercolors and colored pencils.
+    Starting from about seven fish at launch, the collection has grown to more than thirty over ten years.
+  </p>
+</header>
+
+<main>
+  <div class="grid">
+    <figure>
+      <img src="fish/shop_KKumanomi.png" alt="カクレクマノミ" loading="lazy">
+      <figcaption>カクレクマノミ<small>Clown Anemonefish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Debasuzume.png" alt="デバスズメダイ" loading="lazy">
+      <figcaption>デバスズメダイ<small>Blue-green Chromis</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Tsunodashi.png" alt="ツノダシ" loading="lazy">
+      <figcaption>ツノダシ<small>Moorish Idol</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Fueyakko.png" alt="フエヤッコダイ" loading="lazy">
+      <figcaption>フエヤッコダイ<small>Forcepsfish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_TogeTT.png" alt="トゲチョウチョウウオ" loading="lazy">
+      <figcaption>トゲチョウチョウウオ<small>Threadfin Butterflyfish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_OrangeFB.png" alt="オレンジフェイス・バタフライ" loading="lazy">
+      <figcaption>オレンジフェイス・<br>バタフライ<small>Orange-face Butterflyfish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_PMEnjel.png" alt="ペパーミントエンゼル" loading="lazy">
+      <figcaption>ペパーミントエンゼル<small>Peppermint Angelfish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_PFGoby.png" alt="シコンハタタテハゼ" loading="lazy">
+      <figcaption>シコンハタタテハゼ<small>Purple Firefish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_MGKHagi.png" alt="モンガラカワハギ" loading="lazy">
+      <figcaption>モンガラカワハギ<small>Clown Triggerfish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Manboo.png" alt="マンボウ" loading="lazy">
+      <figcaption>マンボウ<small>Ocean Sunfish</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Kurione.png" alt="クリオネ" loading="lazy">
+      <figcaption>クリオネ<small>Sea Angel</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_ZSame.png" alt="ジンベエザメ" loading="lazy">
+      <figcaption>ジンベエザメ<small>Whale Shark</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Dolphin.png" alt="イルカ" loading="lazy">
+      <figcaption>イルカ<small>Dolphin</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Syachi.png" alt="シャチ" loading="lazy">
+      <figcaption>シャチ<small>Orca</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_Shironagasu.png" alt="シロナガスクジラ" loading="lazy">
+      <figcaption>シロナガスクジラ<small>Blue Whale</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_AdeliaePen.png" alt="アデリーペンギン" loading="lazy">
+      <figcaption>アデリーペンギン<small>Adélie Penguin</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_PenEmp.png" alt="コウテイペンギン" loading="lazy">
+      <figcaption>コウテイペンギン<small>Emperor Penguin</small></figcaption>
+    </figure>
+    <figure>
+      <img src="fish/shop_PenEmpb.png" alt="コウテイペンギン（ヒナ）" loading="lazy">
+      <figcaption>コウテイペンギン<br>（ヒナ）<small>Emperor Penguin Chick</small></figcaption>
+    </figure>
+  </div>
+
+  <!-- 新機能の動画は後でここに追加 -->
+</main>
+
+<footer>© rikodesign</footer>
+
+</body>
+</html>
